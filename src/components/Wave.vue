@@ -27,7 +27,7 @@ section {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 100px; /* Điều chỉnh chiều cao của sóng */
+    height: 100px;
     background: url('../assets/path/wave.png');
     background-size: 1000px 100px;
   }
@@ -89,13 +89,13 @@ section {
   }
   .ship-icon {
     position: absolute;
-  top: 27%; /* Đưa ảnh lên giữa theo chiều dọc */
-  left: 110%; /* Đưa ảnh về giữa theo chiều ngang */
-  transform: translate(-50%, -50%); /* Dịch chuyển ảnh để giữa chính xác */
-  width: 100%;
-  height: 400px;
-  background: url('../assets/path/btship-icon.png') no-repeat;
-  animation: boatAnimation 0.5s linear infinite;
+    top: 27%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 400px;
+    background: url('../assets/path/btship-icon.png') no-repeat;
+    animation: boatAnimation 0.5s linear infinite;
 }
 @keyframes boatAnimation {
     0%, 100% {
