@@ -6,7 +6,7 @@ import Wave from '../components/Wave.vue';
     <main class="flex justify-center align-center z-10 pb-24 mx-8 form-select">
     <section class="flex items-center h-[80vh]" style="opacity: 1;">
       <div class="flex flex-col items-center gap-4">
-        <h1 class="font-display text-2xl font-bold block">Play a quick round of battleships</h1>
+        <!-- <h1 class="font-display text-2xl font-bold block">Play a quick round of battleships</h1> -->
         <form @submit.prevent="submitForm" class="flex flex-col items-center gap-4 bg-slate-50 shadow-lg rounded-lg p-4 max-w-3xl">
           <fieldset class="undefined w-full">
             <ul class="grid w-full gap-4 md:grid-cols-2">

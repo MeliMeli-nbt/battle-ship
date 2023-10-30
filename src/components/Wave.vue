@@ -1,6 +1,8 @@
 <template>
+   
     <section>
-        <!-- <img class="img-bgr" src="../assets/path/logo.jpg" alt="">    -->
+        <div class="ship-icon"></div>
+        <img class="img-bgr" src="../assets/path/logo.jpg" alt="">   
         <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
@@ -10,7 +12,7 @@
 <style scoped>
 .img-bgr {
     width: 100%;
-    height: 130vh;
+    height: 85vh;
   }
 section {
     position: relative;
@@ -85,4 +87,22 @@ section {
       background-position-x: -1000px;
     }
   }
+  .ship-icon {
+    position: absolute;
+  top: 27%; /* Đưa ảnh lên giữa theo chiều dọc */
+  left: 110%; /* Đưa ảnh về giữa theo chiều ngang */
+  transform: translate(-50%, -50%); /* Dịch chuyển ảnh để giữa chính xác */
+  width: 100%;
+  height: 400px;
+  background: url('../assets/path/btship-icon.png') no-repeat;
+  animation: boatAnimation 0.5s linear infinite;
+}
+@keyframes boatAnimation {
+    0%, 100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(5px);
+  }
+}
 </style>
