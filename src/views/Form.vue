@@ -8,6 +8,10 @@ import Wave from '../components/Wave.vue';
       <div class="flex flex-col items-center gap-4">
         <!-- <h1 class="font-display text-2xl font-bold block">Play a quick round of battleships</h1> -->
         <form @submit.prevent="submitForm" class="flex flex-col items-center gap-4 bg-slate-50 shadow-lg rounded-lg p-4 max-w-3xl">
+          <div>
+            <i class=""></i>
+            <h1>Battleship</h1>
+          </div>
           <fieldset class="undefined w-full">
             <ul class="grid w-full gap-4 md:grid-cols-2">
               <li>
@@ -76,8 +80,12 @@ export default {
     transform: translate(-50%, -50%);
 }
 .form-select h1{
-    font-family: sans-serif;
-    color: #fff;
-    opacity: 0.8;
+    font-family: 'BenchNine', Arial, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #F4A460;
+}
+form{
+  background: url(../assets/path/form-bgr.jpg);
 }
 </style>

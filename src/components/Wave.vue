@@ -1,24 +1,24 @@
 <template>
    
     <section>
-        <div class="ship-icon"></div>
-        <img class="img-bgr" src="../assets/path/logo.jpg" alt="">   
-        <div class="wave wave1"></div>
+        <!-- <div class="ship-icon"></div> -->
+        <img class="img-bgr" src="../assets/path/bgr.jpg" alt="">   
+        <!-- <div class="wave wave1"></div>
         <div class="wave wave2"></div>
         <div class="wave wave3"></div>
-        <div class="wave wave4"></div>
+        <div class="wave wave4"></div> -->
       </section>
 </template>
 <style scoped>
 .img-bgr {
     width: 100%;
-    height: 85vh;
+    height: 100vh;
   }
 section {
     position: relative;
     width: 100%;
-    height: 83vh;
-    background-color: #5BC6C6;
+    height: 87vh;
+    /* background-color: #5BC6C6; */
     overflow: hidden;
   }
   
@@ -28,7 +28,7 @@ section {
     left: 0;
     width: 100%;
     height: 100px;
-    background: url('../assets/path/wave.png');
+    background: url('../assets/path/wave.png') ;
     background-size: 1000px 100px;
   }
   

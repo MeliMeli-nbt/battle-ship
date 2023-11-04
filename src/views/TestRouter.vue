@@ -1,7 +1,10 @@
+<script setup>
+import Header from '../components/Header.vue';
+</script>
 <template>
+  <Header />  
   <div>
-    <h1>Ok</h1>
-    <router-link to="/testrouter">Test</router-link>
+ 
   </div>
 </template>
 

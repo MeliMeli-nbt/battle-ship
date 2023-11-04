@@ -10,7 +10,7 @@
  <style scoped>
  .btn-play{
      position: absolute;
-     top: 50%;
+     top: 60%;
      left: 50%;
      transform: translate(-50%, -50%);
  }
@@ -20,7 +20,7 @@
      color: #fff;
      text-decoration: none;
      font-family: sans-serif;
-     background-color: #6666FF;
+     background-color: #FF6347;
      height: 60px;
      line-height: 60px;
      text-align: center;
