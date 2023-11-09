@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -7,18 +6,18 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: HomeView
+      component: () => import("../views/HomeView.vue")
     },
     {
       path: '/form',
       name: 'Form',
       component: () => import("../views/Form.vue")
     },
-	{
-		path: '/testrouter1',
-		name: 'TestRouter1',
-		component: () => import("../views/TestRouter.vue")
-	},
+    {
+      path: '/screenplaygame',
+      name: 'ScreenPlayGame',
+      component: () => import("../views/ScreenPlayGame.vue")
+    },
     {
       path: '/testrouter2',
       name: 'TestRouter2',

@@ -56,7 +56,7 @@ export default {
   methods: {
     submitForm() {
         if (this.selectedGame === 'local') {
-        this.$router.push({ name: 'TestRouter1' });
+        this.$router.push({ name: 'ScreenPlayGame' });
         }
         if (this.selectedGame === 'computer') {
         this.$router.push({ name: 'TestRouter2' });
