@@ -14,7 +14,12 @@ const router = createRouter({
       component: () => import("../views/Form.vue")
     },
     {
-      path: '/screenplaygame',
+      path: '/setup',
+      name: 'ScreenSetUp',
+      component: () => import("../views/ScreenSetUp.vue")
+    },
+    {
+      path: '/playgame',
       name: 'ScreenPlayGame',
       component: () => import("../views/ScreenPlayGame.vue")
     },

@@ -1,6 +1,3 @@
-<script setup>
-import Wave from '../components/Wave.vue';
-</script>
 <template>
 	<Wave />
 	<main class="flex justify-center align-center z-10 pb-24 mx-8 form-select">
@@ -55,6 +52,7 @@ import Wave from '../components/Wave.vue';
 
 <script>
 import Footer from '../components/Footer.vue';
+import Wave from '../components/Wave.vue';
 export default {
 	components: {
 		Wave,
@@ -68,7 +66,7 @@ export default {
 	methods: {
 		submitForm() {
 			if (this.selectedGame === 'local') {
-				this.$router.push({ name: 'ScreenPlayGame' });
+				this.$router.push({ name: 'ScreenSetUp' });
 			}
 			if (this.selectedGame === 'computer') {
 				this.$router.push({ name: 'TestRouter2' });

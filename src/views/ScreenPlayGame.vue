@@ -1,6 +1,6 @@
 <template>
-	<div>
-		<Board/>
+	<div class="bg-screen-play-game">
+		<Board :dataBoard="boardPlayer1"/>
 	</div>
 </template>
 
@@ -12,10 +12,6 @@ export default {
 	components: {
 		Board
 	},
-	created() {
-		this.$store.dispatch("initializeBoard1");
-		this.$store.dispatch("initializeBoard2");
-	},
 	computed: {
 		...mapGetters([
 			"boardPlayer1",
@@ -24,3 +20,11 @@ export default {
 	}
 }
 </script>
+
+<style>
+.bg-screen-play-game {
+	background: url(../assets/path/screen-play-game.jpg) center/cover no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+</style>

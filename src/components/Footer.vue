@@ -10,6 +10,6 @@
   bottom: 0;
   width: 100%;
   height: 17vh;
-  background: url(../assets/path/ft-bgr.png) center/cover no-repeat;
+  background: url(../assets/path/footer.png) center/cover no-repeat;
 }
 </style>

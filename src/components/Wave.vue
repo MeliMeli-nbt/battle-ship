@@ -1,14 +1,13 @@
 <template>
-   
     <section>
-        <!-- <div class="ship-icon"></div> -->
         <img class="img-bgr" src="../assets/path/bgr.jpg" alt="">   
-        <!-- <div class="wave wave1"></div>
-        <div class="wave wave2"></div>
-        <div class="wave wave3"></div>
-        <div class="wave wave4"></div> -->
       </section>
 </template>
+<script>
+export default {
+  name: "Wave"
+}
+</script>
 <style scoped>
 .img-bgr {
     width: 100%;
