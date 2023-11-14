@@ -26,16 +26,16 @@ const getters = {
         return state.shipSize5OfPlayer1;
     },
     shipSize4OfPlayer1(state) {
-        return state.shipSize5OfPlayer1;
+        return state.shipSize4OfPlayer1;
     },
     shipSize3_1OfPlayer1(state) {
-        return state.shipSize5OfPlayer1;
+        return state.shipSize3_1OfPlayer1;
     },
     shipSize3_2OfPlayer1(state) {
-        return state.shipSize5OfPlayer1;
+        return state.shipSize3_2OfPlayer1;
     },
     shipSize2OfPlayer1(state) {
-        return state.shipSize5OfPlayer1;
+        return state.shipSize2OfPlayer1;
     },
 }
 
@@ -62,22 +62,23 @@ const mutations = {
 
     },
     setBoardAttack1(state, data) {
-
+        
     },
     setShipSize5OfPlayer1(state, data) { 
-
+        state.shipSize5OfPlayer1.push(data);
     },
     setShipSize4OfPlayer1(state, data) { 
-
+        state.shipSize4OfPlayer1.push(data);
     },
     setShipSize3_1OfPlayer1(state, data) { 
-
+        state.shipSize3_1OfPlayer1.push(data);
     },
     setShipSize3_2OfPlayer1(state, data) { 
-
+        state.shipSize3_2OfPlayer1.push(data);
     },
     setShipSize2OfPlayer1(state, data) { 
-
+        state.shipSize2OfPlayer1.push(data);
+        console.log('Da vao day', state.shipSize2OfPlayer1);
     },
 }
 
